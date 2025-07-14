@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quote Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Quote Finder</h1>
+
+    <div class="controls">
+      <select id="categorySelect">
+        <option value="">All Categories</option>
+        <option value="inspiration">Inspiration</option>
+        <option value="love">Love</option>
+        <option value="life">Life</option>
+        <option value="humor">Humor</option>
+      </select>
+
+      <input type="text" id="searchInput" placeholder="Search quotes..." />
+      <button id="searchBtn">Search</button>
+      <button id="randomBtn">🎲 Random</button>
+      <button id="toggleDarkMode">🌙</button>
+    </div>
+
+    <div id="quotesContainer"></div>
+
+    <h2>⭐ Favorites</h2>
+    <div id="favoritesContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
